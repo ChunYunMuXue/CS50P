@@ -1,0 +1,5 @@
+s = str(input("Expression"))
+s1,c,s2 = s.split()
+s1,s2= int(s1), int(s2)
+ans = eval(f"{s1}{c}{s2}")
+print(f"{ans:.1f}")
