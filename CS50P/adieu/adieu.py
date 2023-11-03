@@ -7,10 +7,10 @@ while True:
     except EOFError:
         break
 print("Adieu, adieu, to ",end='')
-c = 0;
+c = 0
 if(len(name) == 1):
     for si in name:
-        print(si,end='');
+        print(si,end='')
 else:
     for si in name:
         c += 1
